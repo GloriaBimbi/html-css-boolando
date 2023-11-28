@@ -87,6 +87,15 @@ header {
   left: 60px;
 }
 
+.sostenibility-solo {
+  color: white;
+  background-color: green;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+
 .heart {
   color: black;
   background-color: white;
@@ -98,4 +107,22 @@ header {
 
 .heart:hover {
   color: red;
+}
+
+/*FOOTER*/
+footer {
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  padding-left: 20px;
+  font-size: 20px;
 }
