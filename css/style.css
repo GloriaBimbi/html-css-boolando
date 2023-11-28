@@ -1,0 +1,37 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*GENERAL*/
+header {
+  background-color: rgb(255 105 0);
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+/*HEADER*/
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  font-size: 0.8rem;
+}
+
+.boolean-logo {
+  height: 30px;
+}
