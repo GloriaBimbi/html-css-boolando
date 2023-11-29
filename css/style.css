@@ -11,6 +11,9 @@ header {
   min-height: 50px;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .container {
@@ -36,8 +39,9 @@ header {
   height: 30px;
 }
 
-.porsonal-space-logi {
+.icon {
   color: white;
+  padding: 0 5px 0 0;
 }
 
 /*CARD*/
@@ -108,11 +112,6 @@ header {
 .heart:hover {
   color: red;
 }
-
-/*z-index*/
-/* .product-picture-appear {
-  z-index: -1;
-} */
 
 .overlay {
   position: absolute;
